@@ -15,9 +15,9 @@ import java.util.List;
  */
 public class MediationPartners {
 
-    private static int numInterstitial = 12;
+    private static int numInterstitial = 13;
     private static int numRewarded = 12;
-    private static int numInview = 9;
+    private static int numInview = 10;
     private static int numPreroll = 4;
 
     public static final int ADTYPE_INTERSTITIAL = 0;
@@ -40,9 +40,10 @@ public class MediationPartners {
         interstitial_partners[6] = LVDOConstants.PARTNER.GOOGLE.name();
         interstitial_partners[7] = LVDOConstants.PARTNER.MOPUB.name();
         interstitial_partners[8] = LVDOConstants.PARTNER.NIMBUS.name();
-        interstitial_partners[9] = LVDOConstants.PARTNER.TAPJOY.name();
-        interstitial_partners[10] = LVDOConstants.PARTNER.UNITY.name();
-        interstitial_partners[11] = LVDOConstants.PARTNER.VUNGLE.name();
+        interstitial_partners[9] = LVDOConstants.PARTNER.TAM.name();
+        interstitial_partners[10] = LVDOConstants.PARTNER.TAPJOY.name();
+        interstitial_partners[11] = LVDOConstants.PARTNER.UNITY.name();
+        interstitial_partners[12] = LVDOConstants.PARTNER.VUNGLE.name();
     }
 
     private static boolean[] interstitial_parters_selected = new boolean[numInterstitial];
@@ -119,6 +120,7 @@ public class MediationPartners {
         inview_partners[6] = LVDOConstants.PARTNER.MOPUB.name();
         inview_partners[7] = LVDOConstants.PARTNER.NIMBUS.name();
         inview_partners[8] = LVDOConstants.PARTNER.UNITY.name();
+        inview_partners[9] = LVDOConstants.PARTNER.TAM.name();
     }
 
     private static boolean[] inview_parters_selected = new boolean[numInview];
